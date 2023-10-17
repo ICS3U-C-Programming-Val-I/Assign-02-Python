@@ -22,7 +22,7 @@ def main():
     # Extra functionality - getting unit
     unit = input("What unit would you like the calculations measured in?\n")
     # defining the variable "length".
-    length = int(input("What is the length of the sides of the Hexagon "))
+    length = float(input("What is the length of the sides of the Hexagon "))
 
     if calculate == 3:
         # process - Calculating area and perimeter.
