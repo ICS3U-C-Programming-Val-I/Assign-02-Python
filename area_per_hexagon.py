@@ -29,20 +29,20 @@ def main():
         area = (3 * (3**0.5) / 2) * (length**2)
         perimeter = 6 * length
         # output
-        print(f"The area of the rectangle is {area:.2f}{unit}7^2")
-        print(f"The perimeter of the rectangle is {perimeter:.2f}{unit}")
+        print(f"The area of the hexagon is {area:.2f}{unit}^2")
+        print(f"The perimeter of the hexagon is {perimeter:.2f}{unit}")
 
     if calculate == 2:
         # process - Calculating area.
         area = (3 * (3**0.5) / 2) * (length**2)
         # output
-        print(f"The area of the rectangle is {area:.2f}{unit}^2")
+        print(f"The area of the hexagon is {area:.2f}{unit}^2")
 
     if calculate == 1:
         # process - Calculating  perimeter.
         perimeter = 6 * length
         # output
-        print(f"The perimeter of the rectangle is {perimeter:.2f}{unit}")
+        print(f"The perimeter of the hexagon is {perimeter:.2f}{unit}")
 
 
 if __name__ == "__main__":
